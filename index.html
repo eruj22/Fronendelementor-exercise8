@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+  <!-- font styles -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/c6f8ad6da3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <section class="hero">
+    <header class="container header">
+      
+      <a href="#"><img  class="header__logo" src="images/logo.svg" alt=""></a>
+
+      <div class="header__toggle">
+        <i class="fas fa-bars" id="header-toggle"></i>
+      </div>
+
+      <nav class="nav" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item dropdown">
+            <a href="#" class="nav__link dropdown__link">Product<i class="fas fa-chevron-down dropdown__icon"></i></a>
+            <ul class="dropdown__menu">
+              <li class="dropdown__item"><a href="#" class="nav__link">Overview</a></li>
+              <li class="dropdown__item"><a href="#" class="nav__link">Pricing</a></li>
+              <li class="dropdown__item"><a href="#" class="nav__link">Marketplace</a></li>
+              <li class="dropdown__item"><a href="#" class="nav__link">Features</a></li>
+              <li class="dropdown__item"><a href="#" class="nav__link">Integrations</a></li>
+            </ul>
+          </li>
+          <li class="nav__item dropdown">
+            <a href="#" class="nav__link dropdown__link">Company<i class="fas fa-chevron-down dropdown__icon"></i></a>
+            <ul class="dropdown__menu">
+              <li class="dropdown__item"><a href="#" class="nav__link">About</a></li>
+              <li class="dropdown__item"><a href="#" class="nav__link">Team</a></li>
+              <li class="dropdown__item"><a href="#" class="nav__link">Blog</a></li>
+              <li class="dropdown__item"><a href="#" class="nav__link">Careers</a></li>
+            </ul>
+          </li>
+          <li class="nav__item dropdown">
+            <a href="#" class="nav__link dropdown__link">Connect<i class="fas fa-chevron-down dropdown__icon"></i></a>
+            <ul class="dropdown__menu">
+              <li class="dropdown__item"><a href="#" class="nav__link">Contact</a></li>
+              <li class="dropdown__item"><a href="#" class="nav__link">Newsletter</a></li>
+              <li class="dropdown__item"><a href="#" class="nav__link">LinkedIn</a></li>
+            </ul>
+          </li> 
+        </ul>
+        <div class="nav__btn">
+          <a href="#" class="main__cta2">Login</a>
+          <a class="cta main__cta main__cta-mobile" href="#">Sign up</a>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="hero__text">
+        <h1 class="hero__title">A modern publishing platform</h1>
+        <p class="hero__p">Grow your audience and build your online brand</p>
+        <div class="hero__cta">
+          <a href="#" class="cta main__cta">Start for Free</a>
+          <a href="#" class="cta second__cta">Learn More</a>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <section class="sec1">
+    <h2>Designed for the future</h2>
+    <div class="container grid">  
+      <img src="images/illustration-editor-mobile.svg" alt="">
+      <div class="sec1__text text">
+        <h3>Introducing an extensible editor</h3>
+        <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+          change the looks of a blog.</p>
+      </div>  
+      <div class="sec1__text text text2">
+        <h3>Robust content management</h3>
+        <p>  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+          by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
+      </div>  
+    </div>
+  </section>
+  <section class="sec2__text">
+    <div class="container">  
+      <img src="images/illustration-phones.svg" alt="">
+      <div class="container text text5">
+        <h2>State of the Art Infrastructure</h2>
+        <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>  
+      </div>
+    </div>
+  </section>
+  <section class="sec3">
+    <div class="container grid">
+      <img src="images/illustration-laptop-mobile.svg" alt="">
+      <div class="sec3__text text text3">
+        <h3>Free, open, simple</h3>
+        <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+          features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+      </div>
+      <div class="sec3__text text text4">
+        <h3>Powerful tooling</h3>
+        <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+          capable of producing even the most complicated sites.</p>
+      </div>  
+    </div>
+  </section>
+  <footer class="footer">
+    <img class="footer__logo" src="images/logo.svg" alt="">
+    <div class="footer__links">
+      <a href="#" class="footer__bold">Product</a>
+      <div class="footer__links-small">
+        <a href="#">Overview</a>
+        <a href="#">Pricing</a>
+        <a href="#">Marketplace</a>
+        <a href="#">Features</a>
+        <a href="#">Integrations</a>  
+      </div>
+    </div>
+    <div class="footer__links">
+      <a href="#" class="footer__bold">Company</a>
+      <div class="footer__links-small">
+        <a href="#">About</a>
+        <a href="#">Team</a>
+        <a href="#">Blog</a>
+        <a href="#">Careers</a>
+      </div>
+    </div>
+    <div class="footer__links">
+      <a href="#" class="footer__bold">Connect</a>
+      <div class="footer__links-small">
+        <a href="#">Contact</a>
+        <a href="#">Newsletter</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
